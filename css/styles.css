@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 412px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 39px;
+  padding-left: 32px;
+}
+.site-hero {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.site-img {
+  width: 48px;
+  height: 48px;
+  background: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.site-header {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+.site-poragrf {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #969fad;
+  margin-bottom: 24px;
+}
+.site-list {
+  width: 51px;
+  height: 51px;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7c8798;
+  border-radius: 50%;
+  margin-bottom: 32px;
+}
+.link-text {
+  width: 341px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fc7614;
+  border-radius: 22.5px;
+  margin-bottom: 32px;
+  color: #fff;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 2px
+  
+}
+
+.site-list:hover{
+  background-color: #fc7614;
+  color: #fff;
+  cursor: pointer;
+}
+
+.site-list:active{
+  background-color: #7c8798;
+  color: #fff;
+}
+
+.link-text:hover{
+  background-color: #fff;
+  color: #fc7614;
+}
